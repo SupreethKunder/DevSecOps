@@ -78,7 +78,7 @@ jobs:
       - name: Semantic Versioning
         id: step4
         run: |
-          REPO_NAME=$(echo "$REPO_URL" | cut -d'/' -f2)
+          REPO_NAME=$(echo "$REPO_URL" | cut -d'/' -f2 | tr '[:upper:]' '[:lower:]')
           WORDS=$(echo "$REPO_NAME" | tr '-' ' ')
           CLIENT_NAME=$(echo "$WORDS" | awk '{print $1}')
           CNAME=$(echo "$WORDS" | awk '{print $2}')
