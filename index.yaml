@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  devops:
+  - apiVersion: v2
+    created: "2024-05-02T03:00:42.3886592+05:30"
+    description: Added support for Argo Rollouts & KEDA ScaledJobs.
+    digest: 2a29a9130530a5503adbb4282466543371b4e07d3079e2d3a0bada63c6ee6262
+    name: devops
+    type: library
+    urls:
+    - devops-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-05-02T03:00:42.386352+05:30"
