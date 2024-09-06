@@ -10,7 +10,7 @@
 
 ### Adding Repo to Helm
 
-`helm repo add devops --username "$PAT_TOKEN" --password "$PAT_TOKEN" "https://raw.githubusercontent.com/SupreethKunder/DevSecOps/common-charts/"`
+`helm repo add devops --username "$PAT_TOKEN" --password "$PAT_TOKEN" "https://raw.githubusercontent.com/SupreethKunder/DevSecOps/library-charts/"`
 
 ### Verification
 
